@@ -1,7 +1,11 @@
 const React = require('react');
 const ReactDOMServer = require('react-dom/server');
 
-function renderComponent(reactComponent, props = {}, options = { htmlOnly: false }) {
+function renderComponent(
+  reactComponent,
+  props = {},
+  options = { htmlOnly: false }
+) {
   const reactElement = React.createElement(reactComponent, {
     ...this.app.locals, // передать app.locals
     ...this.locals, // передать res.locals
@@ -15,6 +19,7 @@ function renderComponent(reactComponent, props = {}, options = { htmlOnly: false
   }
   const document = `<!DOCTYPE html>${html}`;
   this.send(document);
+  return undefined;
 }
 
 function ssr(req, res, next) {
