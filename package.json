@@ -1,0 +1,31 @@
+{
+  "name": "flashcard-challenge",
+  "version": "1.0.0",
+  "description": "## Общая информация  Мы собираемся создать веб-приложение для флэш-карт. Наше приложение предоставит пользователям возможность использования флэш-карты.  Пользователь выберет колоду и сыграет партию с флэш-картами.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladimir-Semkin/flashCard-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vladimir-Semkin/flashCard-challenge/issues"
+  },
+  "homepage": "https://github.com/Vladimir-Semkin/flashCard-challenge#readme",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.29.0",
+    "sequelize-cli": "^6.6.0"
+  }
+}
