@@ -1,0 +1,19 @@
+/* .cardQuestion{
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+}
+
+.cardQuestion:hover{
+  width: 210px;
+  height: 210px;
+  background-color: rgb(76, 226, 43);
+}
+
+
+<div className='cardQuestion'>
+        {newArr[counter].questions}
+        <button data-id={id} className="btnNext">next</button></div>} */
+
+/* 
+       <div className='cardQuestionImg '><img src={newArr[counter].questions} alt='#'/><button data-id={id} className="btnNext">next</button> </div> */
