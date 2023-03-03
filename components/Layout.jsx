@@ -18,7 +18,19 @@ module.exports = function Layout({ children }) {
         <title>бобропожаловать</title>
       </head>
       <body>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#">Бобр-bar</a>
    
+   
+      <div className="navbar-nav">
+        <a className="nav-link active btn btn-danger text-white" aria-current="page" href="https://zakon.gov.spb.ru/napravleniya-deyatelnosti/rabota-s-organami-voennogo-upravleniya-po-organizacii-prizyva-na-voenn/voennyj-komissariat-goroda-sankt-peterburga-informiruet/">Лучше не надо...</a>
+        <a className="nav-link active goHome" aria-current="page" href="#">Даже не думай</a>
+        
+      </div>
+    
+  </div>
+</nav>
         {children}</body>
     </html>
   );
